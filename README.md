@@ -1,1 +1,2 @@
 # BotParrainages
+Readme à venir
