@@ -11,8 +11,8 @@ var T = new Twit({
 
 module.exports.tweet = function tweet(options, index, tweets) {
   T.post('statuses/update', options, function(err, data, response) {
-    console.log('Done for the day, good night :D', data.created_at);
     // console.error(err);
+    console.log(data);
     index++;
     if (index < tweets.length) {
       options = { status: tweets[index], in_reply_to_status_id: data.id_str };

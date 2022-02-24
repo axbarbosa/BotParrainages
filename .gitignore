@@ -3,3 +3,10 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# logging file
+log
+log.err
+
+# sauvegardes à chaque mise à jour
+lastResults_*
